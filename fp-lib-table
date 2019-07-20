@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pi-gpio-mux)(type KiCad)(uri ${KIPRJMOD}/pi-gpio-mux.pretty)(options "")(descr ""))
+)

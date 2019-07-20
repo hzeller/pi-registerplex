@@ -631,7 +631,7 @@ User2
 Text GLabel 1600 10100 0    50   Input ~ 0
 User3
 Text GLabel 1600 10200 0    50   Input ~ 0
-User3
+User4
 $Comp
 L 74xx:74HCT574 U5
 U 1 1 5D490B5C
@@ -972,7 +972,7 @@ User2
 Text GLabel 5900 10050 0    50   Input ~ 0
 User3
 Text GLabel 5900 10150 0    50   Input ~ 0
-User3
+User4
 $Comp
 L 74xx:74HCT574 U6
 U 1 1 5D4A9BC2
@@ -1516,7 +1516,7 @@ User2
 Text GLabel 9950 10100 0    50   Input ~ 0
 User3
 Text GLabel 9950 10200 0    50   Input ~ 0
-User3
+User4
 $Comp
 L 74xx:74HCT574 U10
 U 1 1 5D3E21A9

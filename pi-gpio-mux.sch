@@ -1619,7 +1619,7 @@ L Connector_Generic:Conn_01x01 J7
 U 1 1 5D3E21DE
 P 9000 3900
 F 0 "J7" V 8964 3812 50  0000 R CNN
-F 1 "Clk1" V 8873 3812 50  0000 R CNN
+F 1 "Clk2" V 8873 3812 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 9000 3900 50  0001 C CNN
 F 3 "~" H 9000 3900 50  0001 C CNN
 	1    9000 3900
@@ -1892,4 +1892,8 @@ F 3 "~" H 10850 10750 50  0001 C CNN
 	1    10850 10750
 	1    0    0    -1  
 $EndComp
+Text Label 4850 4250 0    50   ~ 0
+CLK1
+Text Label 8900 4300 0    50   ~ 0
+CLK2
 $EndSCHEMATC

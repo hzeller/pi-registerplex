@@ -567,7 +567,7 @@ User2
 Text GLabel 8000 3850 0    50   Input ~ 0
 User3
 Text GLabel 8000 3950 0    50   Input ~ 0
-User3
+User4
 Text GLabel 1350 4300 0    50   Input ~ 0
 Pin3-GPIO2
 Text GLabel 1350 4400 0    50   Input ~ 0

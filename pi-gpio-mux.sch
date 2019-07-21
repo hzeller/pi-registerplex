@@ -1896,4 +1896,169 @@ Text Label 4850 4250 0    50   ~ 0
 CLK1
 Text Label 8900 4300 0    50   ~ 0
 CLK2
+$Comp
+L power:GND #PWR02
+U 1 1 5D3F4AF0
+P 8900 2650
+F 0 "#PWR02" H 8900 2400 50  0001 C CNN
+F 1 "GND" H 8905 2477 50  0000 C CNN
+F 2 "" H 8900 2650 50  0001 C CNN
+F 3 "" H 8900 2650 50  0001 C CNN
+	1    8900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5D3F56BE
+P 8900 1650
+F 0 "#PWR01" H 8900 1500 50  0001 C CNN
+F 1 "VCC" H 8917 1823 50  0000 C CNN
+F 2 "" H 8900 1650 50  0001 C CNN
+F 3 "" H 8900 1650 50  0001 C CNN
+	1    8900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1500 10550 1850
+Wire Wire Line
+	9950 1500 9950 1850
+$Comp
+L 74xx:74HCT04 U13
+U 1 1 5D4B4710
+P 9650 1850
+F 0 "U13" H 9650 2167 50  0000 C CNN
+F 1 "74HCT04" H 9650 2076 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 9650 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9650 1850 50  0001 C CNN
+	1    9650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT04 U13
+U 2 1 5D4B5F00
+P 10250 1850
+F 0 "U13" H 10250 2167 50  0000 C CNN
+F 1 "74HCT04" H 10250 2076 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 10250 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10250 1850 50  0001 C CNN
+	2    10250 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 1850
+$Comp
+L 74xx:74HCT04 U13
+U 3 1 5D4B7406
+P 10850 1850
+F 0 "U13" H 10850 2167 50  0000 C CNN
+F 1 "74HCT04" H 10850 2076 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 10850 1850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10850 1850 50  0001 C CNN
+	3    10850 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 1850
+$Comp
+L 74xx:74HCT04 U13
+U 4 1 5D4B8FD4
+P 10850 2550
+F 0 "U13" H 10850 2867 50  0000 C CNN
+F 1 "74HCT04" H 10850 2776 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 10850 2550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10850 2550 50  0001 C CNN
+	4    10850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HCT04 U13
+U 5 1 5D4BAB75
+P 10250 2550
+F 0 "U13" H 10250 2867 50  0000 C CNN
+F 1 "74HCT04" H 10250 2776 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 10250 2550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10250 2550 50  0001 C CNN
+	5    10250 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9950 2550
+$Comp
+L 74xx:74HCT04 U13
+U 6 1 5D4BC431
+P 9650 2550
+F 0 "U13" H 9650 2867 50  0000 C CNN
+F 1 "74HCT04" H 9650 2776 50  0000 C CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 9650 2550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9650 2550 50  0001 C CNN
+	6    9650 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 2550
+$Comp
+L 74xx:74HCT04 U13
+U 7 1 5D4BE165
+P 8900 2150
+F 0 "U13" H 9130 2196 50  0000 L CNN
+F 1 "74HCT04" H 9130 2105 50  0000 L CNN
+F 2 "pi-gpio-mux:SOT762-1-DHVQFN14" H 8900 2150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8900 2150 50  0001 C CNN
+	7    8900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5D4D6C84
+P 10050 1050
+F 0 "J8" V 10014 762 50  0000 R CNN
+F 1 "Conn_01x04" V 9923 762 50  0000 R CNN
+F 2 "pi-gpio-mux:triple-inverter" H 10050 1050 50  0001 C CNN
+F 3 "~" H 10050 1050 50  0001 C CNN
+	1    10050 1050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9950 1250 9350 1250
+Wire Wire Line
+	9350 1250 9350 1850
+Wire Wire Line
+	10050 1250 10050 1500
+Wire Wire Line
+	10050 1500 9950 1500
+Wire Wire Line
+	10150 1250 10150 1500
+Wire Wire Line
+	10150 1500 10550 1500
+Wire Wire Line
+	10250 1250 11150 1250
+Wire Wire Line
+	11150 1250 11150 1850
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5D54A0CE
+P 10100 3300
+F 0 "J9" V 9972 3012 50  0000 R CNN
+F 1 "Conn_01x04" V 10063 3012 50  0000 R CNN
+F 2 "pi-gpio-mux:triple-inverter" H 10100 3300 50  0001 C CNN
+F 3 "~" H 10100 3300 50  0001 C CNN
+	1    10100 3300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9350 3100 10000 3100
+Wire Wire Line
+	9350 2550 9350 3100
+Wire Wire Line
+	10300 3100 11150 3100
+Wire Wire Line
+	11150 2550 11150 3100
+Wire Wire Line
+	10550 3000 10200 3000
+Wire Wire Line
+	10200 3000 10200 3100
+Wire Wire Line
+	10550 2550 10550 3000
+Wire Wire Line
+	9950 3000 10100 3000
+Wire Wire Line
+	10100 3000 10100 3100
+Wire Wire Line
+	9950 2550 9950 3000
 $EndSCHEMATC

@@ -7,3 +7,5 @@ GPIO Multiplexer with registers
    from a single GPIO write)
 
 ![](img/board-render.png)
+![](img/schematic.png)
+
